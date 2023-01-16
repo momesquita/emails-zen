@@ -1,0 +1,39 @@
+<p>Olá, {{sessions.[0].professional}}! Como você está? Esperamos que esteja bem!</p>
+
+<p>Identificamos que não houve registro a respeito de
+
+<b>
+{{#if sessions.[1].professional}}
+sessões
+{{else}}
+uma sessão
+{{/if}}
+
+no dia {{sessions.[0].day}}.
+</b></p>
+
+
+<ul>
+{{#each sessions}}
+  <li><b>{{this.day}} às {{this.time}}</b> - Cliente: {{this.client}}
+{{/each}}
+</ul>
+
+<p>Nesse caso, é importante que verifique as situações abaixo:</p>
+
+<ol>
+
+<li>Se a sessão em questão ocorreu, é importante verificar se você incluiu os motivos no box da sessão correspondente em tempo hábil. Desta forma, você garante ao sistema que o atendimento foi realizado. Para preencher os motivos, basta seguir o passo a passo indicado no link a seguir: <a href="https://zenoffice.reamaze.com/kb/boas-praticas/dicas-para-a-1o-sessao" target="_blank"> Saiba tudo para a sua 1ª Sessão - ZenOffice. </a>
+</li><br/>
+<li>Caso esse atendimento não tenha acontecido, orientamos que você entre em contato com o cliente por chat para oferecer um reagendamento a fim de que o mesmo possa usufruir desta sessão com você. Para esses casos,  deve-se usar os convites para repor uma sessão perdida, está bem? Você pode enviar um convite com valor de 0 reais, seguindo o passo a passo do link a seguir: <a href="https://zenoffice.reamaze.com/kb/meu-consultorio-online/como-faco-para-agendar-convidar-clientes" target="_blank">Como cadastro e convido meus clientes? - ZenOffice </a></li><br/>
+<li>Caso a sessão tenha acontecido e você tenha preenchido os motivos da sessão, não há com o que se preocupar! Lembre-se apenas de preencher as informações a respeito da sessão em seu Office logo após o término da mesma, combinado? Dessa forma, o Zenklub entenderá que o agendamento ocorreu normalmente, e você não receberá um recado a respeito. </li>
+
+</ol>
+
+<p>Esperamos contar com a sua colaboração para que possamos aprimorar cada vez mais a nossa parceria e, juntos, oferecermos uma ótima experiência aos clientes!
+</p>
+
+<p>Se houver qualquer dúvida ou pendência a respeito, pode contar com o nosso time de suporte! Basta enviar um e-mail para o endereço “profissionais@zenklub.com”. 
+</p>
+
+<p>Muito obrigado!</p>
